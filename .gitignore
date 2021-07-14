@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Output/outPut20210714022446.xlsx
+/Input/lookuptest.csv

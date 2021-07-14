@@ -1,0 +1,93 @@
+﻿{
+  "mobile_country_code": "313",
+  "mobile_network_code": "968",
+  "name": "Twilio - Toll-Free - SMS-Sybase365/MMS-SVR",
+  "type": "voip",
+  "error_code": null
+}
+{
+  "caller_name": "TWILIO",
+  "caller_type": null,
+  "error_code": null
+}
+{
+  "status": "successful",
+  "message": null,
+  "code": null,
+  "results": {
+    "ekata_reverse_phone": {
+      "status": "successful",
+      "request_sid": "XR0bdee4ca144426d4a89c3be7b8739730",
+      "message": null,
+      "code": null,
+      "result": {
+        "phone_number": "+18448144627",
+        "warnings": [],
+        "historical_addresses": [],
+        "alternate_phones": [],
+        "error": null,
+        "is_commercial": true,
+        "associated_people": [],
+        "country_calling_code": "1",
+        "belongs_to": {
+          "age_range": null,
+          "name": "Twilio",
+          "firstname": null,
+          "middlename": null,
+          "lastname": null,
+          "industry": null,
+          "alternate_names": [],
+          "gender": null,
+          "link_to_phone_start_date": null,
+          "type": "Business",
+          "id": "Business.c35a507f-cc15-3fc3-89ef-ff769f4913b3"
+        },
+        "is_valid": true,
+        "line_type": "TollFree",
+        "carrier": null,
+        "current_addresses": [
+          {
+            "city": null,
+            "lat_long": {
+              "latitude": 39.44325,
+              "longitude": -98.95733,
+              "accuracy": "Country"
+            },
+            "is_active": null,
+            "location_type": "Country",
+            "street_line_2": null,
+            "link_to_person_start_date": null,
+            "street_line_1": null,
+            "postal_code": null,
+            "delivery_point": null,
+            "country_code": "US",
+            "state_code": null,
+            "id": "Location.0a48926c-b02c-468e-ba80-18cc77dfa3fc",
+            "zip4": null
+          }
+        ],
+        "id": "Phone.e9e76fef-a2e1-4b08-cfe3-bc7128b7ef18",
+        "is_prepaid": null
+      }
+    },
+    "ekata_phone_valid": {
+      "status": "successful",
+      "request_sid": "XR3e4dfb10f640a2e63807285dcda89734",
+      "message": null,
+      "code": null,
+      "result": {
+        "phone_number": "8448144627",
+        "warnings": [],
+        "error": null,
+        "country_calling_code": "1",
+        "is_valid": true,
+        "line_type": "TollFree",
+        "country_code": "US",
+        "carrier": null,
+        "country_name": "United States",
+        "id": "Phone.e9e76fef-a2e1-4b08-cfe3-bc7128b7ef18",
+        "is_prepaid": null
+      }
+    }
+  }
+}
